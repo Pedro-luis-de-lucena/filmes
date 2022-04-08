@@ -1,0 +1,68 @@
+body{
+    background-color: rgba(240,240,240, 1.0);
+}
+.nome-filme{
+    color: #fff;
+}
+.filme-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    align-items: center;
+    background-color: rgb(35, 103, 230);
+}
+
+.filme-info img{
+    background-color: brown;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.filme-info button{
+    margin-right: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    outline: none;
+    padding: 12px;
+    padding-bottom: 12px;
+    color: rgb(20, 18, 18);
+    }
+.filme-info button:hover{
+    align-self: center;
+    background-color: brown;
+    color: #fff;
+}
+
+.filme-info a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+
+.filme-info a:hover{
+    color: #fff;
+}
+
+.sinopse{
+        text-decoration: none;
+        color: #fff;
+        background-color: brown;
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+
+}
+.sinopse_caixa{
+    color: #fff;
+    background-color: brown ;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    border: 5px rgb(70, 11, 11)
+
+
+}
